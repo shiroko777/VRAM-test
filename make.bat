@@ -1,3 +1,3 @@
 @echo off 
 nasm -f bin kernel.asm -o kernel.bin
-qemu-system-x86_64 -drive file=hack.bin
+qemu-system-x86_64 -drive file=kernel.bin
